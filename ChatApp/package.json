@@ -1,0 +1,17 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Simple chat app using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Makrand Anil Patil",
+  "license": "",
+  "dependencies": {
+    "express": "*",
+    "pug": "*",
+    "socket.io": "*"
+  }
+}
