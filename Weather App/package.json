@@ -1,0 +1,17 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "simple weather app which uses http request feature of request module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Makrand Patil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
