@@ -1,0 +1,15 @@
+{
+  "name": "NodeImageUpload",
+  "version": "1.0.0",
+  "description": "Example for image uploading in Node using Multer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Makrand Anil Patil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "multer": "*"
+  }
+}
