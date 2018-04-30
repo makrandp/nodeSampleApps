@@ -3,10 +3,11 @@ const mysql = require('mysql');
 
 //setting up mysql connection
 const connection = mysql.createConnection({
-  host     : 'localhost',
+  host     : '129.158.83.140',
+  port : 3306,
   user     : 'root',
-  password : '',
-  database : 'testDatabase'
+  password : 'Makrand@1234',
+  database : 'testdatabase'
 });
 
 //checking if the connection works
@@ -26,7 +27,9 @@ app.get('/createdb', (req,res) => {
   connection.query(sql, (err, results) => {
     if(err)
     {
-       throw err;
+       console.log(err.code);
+	   //console.log(err);
+	   return;
     }
     console.log(results);
     res.send("DATABASE created..");
