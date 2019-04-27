@@ -10,17 +10,17 @@
   "author": "Makrand Anil Patil",
   "license": "",
   "dependencies": {
-    "express": "*",
+    "bcryptjs": "*",
     "body-parser": "*",
+    "connect-flash": "*",
+    "express": "*",
     "express-handlebars": "*",
     "express-messages": "*",
     "express-session": "*",
     "express-validator": "*",
-    "connect-flash": "*",
-    "mongoose": "*",
+    "mongoose": "^5.5.4",
     "passport": "*",
     "passport-http": "*",
-    "passport-local": "*",
-    "bcryptjs": "*"
+    "passport-local": "*"
   }
 }
